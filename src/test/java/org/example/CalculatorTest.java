@@ -16,7 +16,7 @@ public class CalculatorTest
         final double sum = calculator.add(4, 3);
 
         // assert
-        assertEquals(7, sum);
+        assertEquals(20, sum);
     }
 
     @Test
