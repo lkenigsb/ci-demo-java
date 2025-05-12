@@ -15,5 +15,5 @@ jobs:
           distribution: 'zulu'
           java-version: '21'
       - run: ./gradlew build
-      - run: ./gradlew test --console=plain --debug --stacktrace
+      - run: ./gradlew test --console=plain --debug --stacktrace --scan
         # Run tests
